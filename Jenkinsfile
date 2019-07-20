@@ -1,12 +1,23 @@
-pipeline{
-          agent any
-          stages{
-                stage('Prep'){
-                      steps{
-                        sh"""
-                          echo "Pipeline 1st stage"
-                          """
-                          }
-                  }
-          }
+pipeline {
+	agent any
+	stages {
+		stage ('build') {
+			
+		}
+		stage ('test: integration-&-quality') {
+			
+		}
+		stage ('test: functional') {
+			
+		}
+		stage ('test: load-&-security') {
+			
+		}
+		stage ('approval') {
+			
+		}
+		stage ('deploy:prod') {
+			
+		}
+	}
 }
