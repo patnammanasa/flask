@@ -5,6 +5,7 @@ pipeline{
                       steps{
                         sh"""
                           echo "Pipeline 1st stage"
+                          """
                           }
                   }
           }
